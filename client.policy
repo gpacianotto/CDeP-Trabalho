@@ -1,0 +1,4 @@
+grant codeBase "file:<drive>:/computeEngine/" {
+    permission java.net.SocketPermission "localhost:*", "connect,resolve";
+    permission java.security.AllPermission;
+};
